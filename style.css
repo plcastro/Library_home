@@ -1,48 +1,21 @@
-html{
-    height: 100%;
-}
 h1, h4 {
-    font-weight: bold;
+    font-weight: bold;   
 }
 p {
     font-size: 16px;
 }
-.nav-wrapper{
-    padding-left: 4.5em;
-}
-.banner{
-    background-image: url("./img/Banner_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    padding: 6em;
-    margin-bottom: 3em;    
-}
-.container {
-    display: inline;
-    padding: 0 auto;
-}
-#footer {
-    position: sticky;
-    top: 100%;
-    bottom: 0;
-    padding: 1em;
-}
-@media screen and (max-width: 800px) {
-    /* mobile phones */
-    .nav-wrapper {
-        padding-left: 1em;
-    }
-    h1{
-        font-size: 24px;
-    }
-    p{
-        font-size: 12px;
-    }
-    .banner {
-        max-height: 400px;
-        padding: 6em 3em 4em ;
-        margin-bottom: 2em; 
-    }     
 
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 16px;
+    } 
+    .parallax-container{
+        max-height: 350px;
+    }
+    .container .header{
+        margin-top: 1em;       
+    }
 }
