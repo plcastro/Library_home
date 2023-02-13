@@ -19,7 +19,7 @@ a.brand-logo-left img.responsive-img{
 }
 .parallax {
     /* The image used */
-    background-image: url("./img/Banner_bg.png");
+    background-image: url("./img/Banner_bg.jpg");
       /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -37,9 +37,7 @@ a.brand-logo-left img.responsive-img{
     h5, h4{
         font-size: 20px;
     } 
-    .parallax img.responsive-img {
-        min-height: 500px;
-    }
+    
     a.brand-logo-left img.responsive-img{
         margin-top: 10px;
         max-height: 40px;
@@ -48,16 +46,19 @@ a.brand-logo-left img.responsive-img{
 }
 @media screen and (max-width: 530px) {
     h1{
-        font-size: 30px;
+        font-size: 32px;
     }
     h5, p{
-        font-size: 16px;
+        font-size: 20px;
     }
     .nav-wrapper {
         padding-left: 0;
     }
     #head{
-        margin-top: 70px;
+        margin-top: 10px;
+    }
+    .parallax img.responsive-img {
+        min-height: 700px;
     }
     a.brand-logo-left img.responsive-img{
         margin-top: 15px;
