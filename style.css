@@ -25,12 +25,9 @@ a.brand-logo-left img.responsive-img{
     #head{
         margin-top: 60px;
     }
-    .parallax-container{
-        max-height: 350px;
-    }
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     h1{
         font-size: 30px;
     }
@@ -44,9 +41,8 @@ a.brand-logo-left img.responsive-img{
         padding-left: 0;
     }
     #head{
-        margin-top: 30px;
+        margin-top: 20px;
     }
-
     a.brand-logo-left img.responsive-img{
         margin-top: 15px;
         max-height: 32px;
