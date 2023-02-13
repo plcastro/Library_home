@@ -4,18 +4,30 @@ h1, h4 {
 p {
     font-size: 16px;
 }
+#head{
+    margin-top: 100px;
+}
 
 @media screen and (max-width: 800px) {
     h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     h5{
-        font-size: 16px;
+        font-size: 20px;
     } 
+    #head{
+        margin-top: 70px;
+    }
     .parallax-container{
         max-height: 350px;
     }
     .container .header{
         margin-top: 1em;       
+    }
+}
+@media screen and (max-width: 600px) {
+    a.brand-logo-left img.responsive-img{
+        margin-top: 5px;
+        max-height: 50px;
     }
 }
