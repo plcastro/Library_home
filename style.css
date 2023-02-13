@@ -57,8 +57,8 @@ a.brand-logo-left img.responsive-img{
     #head{
         margin-top: 10px;
     }
-    .parallax img.responsive-img {
-        min-height: 700px;
+    .parallax-container {
+        min-height: 300px;
     }
     a.brand-logo-left img.responsive-img{
         margin-top: 15px;
