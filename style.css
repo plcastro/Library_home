@@ -1,5 +1,5 @@
 html, body{
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 h1{
     font-size: 50px;
@@ -17,6 +17,18 @@ a.brand-logo-left img.responsive-img{
 #head{
     margin-top: 100px;
 }
+.parallax {
+    /* The image used */
+    background-image: url("./img/Banner_bg.png");
+      /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
 
 @media screen and (max-width: 800px) {
     h1{
@@ -25,28 +37,27 @@ a.brand-logo-left img.responsive-img{
     h5, h4{
         font-size: 20px;
     } 
-    #head{
-        margin-top: 60px;
-    }
     .parallax img.responsive-img {
-        max-height: 150px;
+        min-height: 500px;
+    }
+    a.brand-logo-left img.responsive-img{
+        margin-top: 10px;
+        max-height: 40px;
+        padding-left: 0;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 530px) {
     h1{
         font-size: 30px;
     }
-    h5{
-        font-size: 14px;
-    }
-    p{
-        font-size: 13px;
+    h5, p{
+        font-size: 16px;
     }
     .nav-wrapper {
         padding-left: 0;
     }
     #head{
-        margin-top: 20px;
+        margin-top: 70px;
     }
     a.brand-logo-left img.responsive-img{
         margin-top: 15px;
