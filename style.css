@@ -1,68 +1,68 @@
-html, body{
-    overflow-x: hidden; 
+h1 {
+  font-size: 50px;
 }
-h1{
-    font-size: 50px;
-}
-h1, h4 {
-    font-weight: bold;   
+h1,
+h4 {
+  font-weight: bold;
 }
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
-a.brand-logo-left img.responsive-img{
-    height: 64px; 
-    padding-left: 4.5em;
+a.brand-logo-left img.responsive-img {
+  height: 54px;
+  padding: 10px 0 0 4.5em;
 }
-#head{
-    margin-top: 100px;
+#head {
+  margin-top: 100px;
+}
+.parallax-container {
+  height: 400px;
 }
 .parallax {
-    /* The image used */
-    background-image: url("./img/Banner_bg.png");
-      /* Set a specific height */
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: brightness(50%);
+  /* The image used */
+  background-image: url("./img/Banner_bg.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
 }
 
-@media screen and (max-width: 800px) {
-    h1{
-        font-size: 40px;
-    }
-    h5, h4{
-        font-size: 20px;
-    } 
-    
-    a.brand-logo-left img.responsive-img{
-        margin-top: 10px;
-        max-height: 40px;
-        padding-left: 0;
-    }
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  .parallax-container {
+    height: 320px;
+  }
+  a.brand-logo-left img.responsive-img {
+    height: 50px;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 530px) {
-    h1{
-        font-size: 32px;
-    }
-    h5, p{
-        font-size: 20px;
-    }
-    .nav-wrapper {
-        padding-left: 0;
-    }
-    #head{
-        margin-top: 10px;
-    }
-    .parallax-container {
-        min-height: 300px;
-    }
-    a.brand-logo-left img.responsive-img{
-        margin-top: 15px;
-        max-height: 32px;
-        padding-left: 0;
-    }   
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .nav-wrapper {
+    padding-left: 0;
+  }
+  #head {
+    margin-top: 80px;
+  }
+  .parallax-container {
+    min-height: 200px;
+  }
+  a.brand-logo-left img.responsive-img {
+    margin-bottom: 5px;
+  }
 }
