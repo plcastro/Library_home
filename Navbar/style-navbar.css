@@ -1,0 +1,22 @@
+html,
+body {
+  overflow-x: hidden;
+}
+a.brand-logo-left img.responsive-img {
+    height: 54px;
+    padding: 10px 0 0 4.5em;
+  }
+@media screen and (max-width: 992px) {
+a.brand-logo-left img.responsive-img {
+    height: 50px;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 530px) {
+.nav-wrapper {
+    padding-left: 0;
+  }
+a.brand-logo-left img.responsive-img {
+    margin-bottom: 5px;
+  }
+}

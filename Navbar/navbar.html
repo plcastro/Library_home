@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; padding: 0; height: 100%; width: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/aclc_logo.png" type="image/icon type" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.1/dist/css/materialize.min.css"
+    />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Navbar/style-navbar.css" />
+    <title>Navbar</title>
+  </head>
+  <body
+    style="min-height: 100%; margin: 0; padding: 0; background-color: #fff3e0"
+  >
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper indigo darken-4">
+          <a href="#!" class="brand-logo-left"
+            ><img src="./img/aclc_logo.png" class="responsive-img" alt=""
+          /></a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down" style="margin-right: 4.5em">
+            <li>
+              <a
+                href="./login.html"
+                class="btn-small waves-effect waves-light indigo darken-4"
+                style="border-radius: 24px"
+                >Login</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn-small waves-effect waves-light indigo darken-4"
+                style="border-radius: 24px"
+                >Books</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn-small waves-effect waves-light indigo darken-4"
+                style="border-radius: 24px"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn-small waves-effect waves-light indigo darken-4"
+                style="border-radius: 24px"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul id="slide-out" class="sidenav">
+      <li><a href="./login.html">Login</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- End of Navigation -->
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.2.1/dist/js/materialize.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems, {
+          edge: "left",
+          inDuration: 100,
+          outDuration: 400,
+          preventScrolling: true,
+        });
+      });
+
+      M.AutoInit();
+    </script>
+  </body>
+</html>
